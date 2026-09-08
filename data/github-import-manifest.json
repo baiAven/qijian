@@ -1,0 +1,38 @@
+{
+  "importedAt": "2026-09-08",
+  "sourceRows": {
+    "955": 86,
+    "black": 235,
+    "white": 10
+  },
+  "totalSourceRows": 331,
+  "uniqueCompanies": 318,
+  "mergedRows": 13,
+  "sources": [
+    {
+      "key": "955",
+      "repo": "formulahendry/955.WLB",
+      "path": "README.md",
+      "sha": "eff96b0b20a5fc71d1d51cd9ff0c225eb5da140e",
+      "updated": "2025-02-03T05:14:25Z",
+      "lines": 128
+    },
+    {
+      "key": "black",
+      "repo": "996icu/996.ICU",
+      "path": "blacklist/README.md",
+      "sha": "78c11d11c1aadcc5042d3221aeea295e394964ca",
+      "updated": "2025-08-22T06:00:11Z",
+      "lines": 281
+    },
+    {
+      "key": "white",
+      "repo": "996icu/996.ICU",
+      "path": "whitelist/README.md",
+      "sha": "72875d5f6b95a5eaafabb263fa4257edbf736082",
+      "updated": "2020-11-25T10:26:17Z",
+      "lines": 40
+    }
+  ],
+  "excluded": "996.ICU 黑名单的取消/争议记录表不作为在榜名单导入；仅导入主名单。"
+}

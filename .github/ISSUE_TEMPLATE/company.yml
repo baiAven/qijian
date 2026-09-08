@@ -1,0 +1,25 @@
+name: 企业资料 / 更正
+description: 补充有来源的企业、工时、产品或供应关系
+title: "[资料] 企业名称 / 地区"
+body:
+  - type: textarea
+    id: scope
+    attributes:
+      label: 企业与适用范围
+      description: 企业名称、城市、部门或岗位；涉及产品时请填写品牌与型号。
+    validations:
+      required: true
+  - type: textarea
+    id: facts
+    attributes:
+      label: 补充或更正的具体信息
+      description: 区分亲身观察、来源记载和推测。更正时说明对应的旧条目。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 公开来源和对应日期
+      description: 填写可复查链接、资料日期与观察时段。不要上传个人信息或未脱敏截图。
+    validations:
+      required: true
